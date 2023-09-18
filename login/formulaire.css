@@ -1,0 +1,64 @@
+body{
+    background-color: #F8F9FA;
+    margin-top: 200px;
+    font-family: 'Roboto';
+}
+h1{
+    text-align: center;
+    font-weight: lighter;
+}
+.item{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin-left: 560px;
+    margin-top: 20px;
+}
+.item input{
+    height: 50px;
+    width: 400px;
+    border: 0.5px solid gainsboro;
+}
+.input-group{
+    display: block;
+}
+.check{
+    margin:20px 0 ;
+}
+.check input{
+    height: 15px;
+    width: 15px;
+}
+.bouton button{
+    background-color: #0D6EFD;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 45px;
+    width: 400px;
+}
+input::placeholder{
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+}
+
+.check label{
+    font-size: 20px;
+    color: black;
+}
+#floatingInput{
+    width: 400px;
+}
+#pass{
+    color: violet;
+}
+#floatingPassword:focus{
+    background-color: #FFFCC8;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
